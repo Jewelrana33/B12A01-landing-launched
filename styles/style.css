@@ -25,14 +25,31 @@
     outline: 0;
 }
 body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 .primary_btn{
     background-color: #4E47FF;
     border-radius: 10px;
     padding: 10px 20px;
     border: none;
+}
+.primary_btn a{
+    text-decoration: none;
+    font-size: 16;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.primary_btn:hover{
+    background-color: #605cd8;
+    transition: 1s;
 }
 
 /* Nav section styles start  */
@@ -44,6 +61,9 @@ header{
 }
 
 .navbar{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,10 +74,52 @@ header{
     font-weight: 900;
     color: #4E47FF;
 }
-.sign_up_btn a{
-    text-decoration: none;
-    font-size: 16;
+
+/* nav styles end  */
+/* ------------------------------ */
+
+/* banner styles start  */
+.banner{
+    max-width: 905px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.banner_desc{
+    font-size: 65px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+/* banner styles end  */
+
+/* Launch section start  */
+
+.launch_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.launch_details{
+    max-width: 517px;
+}
+
+.launch_title{
+    font-size: 42px;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    color: #FFFFFF;
+}
+.launch_desc{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+    
+}
+.launch_img{
+    border-radius: 50px;
 }
