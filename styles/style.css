@@ -52,6 +52,19 @@ main{
     transition: 1s;
 }
 
+.states_number{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+.states_desc{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #0000007c;
+}
+
 /* Nav section styles start  */
 
 header{
@@ -118,8 +131,40 @@ header{
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     margin: 20px 0;
+    color: rgba(25, 24, 32, .5);
+    
     
 }
 .launch_img{
     border-radius: 50px;
 }
+
+/* Launch section end  */
+
+/* success section start  */
+
+.success_state_section{
+    background-color: #E5E7FF;
+    padding: 70px 50px;
+    border-radius: 20px;
+}
+ 
+.state_title{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.states{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* success section end  */
+
+
+
+
+
