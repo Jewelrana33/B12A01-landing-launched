@@ -28,11 +28,14 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #F5F8FF;
+    
 }
 
 main{
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 
 .primary_btn{
@@ -51,6 +54,7 @@ main{
 .primary_btn:hover{
     background-color: #605cd8;
     transition: 1s;
+    cursor: pointer;
 }
 
 .states_number{
@@ -189,6 +193,7 @@ header{
 
 .opinion_card{
     max-width: 318px;
+    background-color: #FAFCFF;
 }
 .stars{
     margin-bottom: 20px;
@@ -223,11 +228,14 @@ header{
 
 /* ready section start  */
 .ready_section{
+
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     margin: 100px 0;
+    padding: 50px 0;
 }
 .ready_title{
     font-size: 50px;
@@ -249,5 +257,94 @@ header{
 
 
 /* ready section end */
+
+/* get in touch start  */
+
+.get_in_touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get_in_touch_title{
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+
+    
+}
+
+form > label {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+
+}
+
+form > input, textarea{
+    width: 100%;
+    padding: 5px 10px;
+    color: #0000007c;
+     font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.form_btn{
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px 30px;
+}
+
+/* get in touch end */
+
+/* footer section start  */
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: #FFFFFF;
+    
+}
+
+.footer_title{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    text-align: center;
+}
+.footer_desc{
+    color: #8987A1;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    width: 531px;
+    margin: 40px auto;
+    text-align: center;
+
+}
+footer ul {
+    width: 531px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li a {
+ text-decoration: none;
+ color: #8987A1;
+ font-size: 16px;
+ font-family: "Raleway", sans-serif;
+ 
+
+}
+footer ul li {
+    list-style-type: none;
+}
+
+/* footer section end */
 
 
